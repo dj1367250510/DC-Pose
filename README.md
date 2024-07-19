@@ -17,7 +17,7 @@ pip install gorilla-core==0.2.5.3
 cd model/pointnet2
 python setup.py install
 ```
-# 💛 Data Processing
+# 🧡 Data Processing
 ## NocsDateset:CAMERA25 and REAL275
 - Download and preprocess the dataset following [DPDN](https://github.com/JiehongLin/Self-DPDN)
 - Download and unzip the segmentation results [here](http://home.ustc.edu.cn/~llinxiao/segmentation_results.zip)
@@ -69,6 +69,34 @@ HouseCat6D
 ...............
 │── test_scene6
 ```
+# 💛 Train code of command blocks
+- Train On the NocsDateset:
+```
+todo
+```
+- Train On the IndoorDataset:
+```
+todo
+```
+# 💛 Evalute code of command blocks
+- Evaluate On the NocsDateset:
+```
+todo
+```
+- Evaluate On the IndoorDataset:
+```
+todo
+```
+# 💚 Results
+## The result of REAL275:
+- todo
+## The result of CAMERA25:
+- todo
+## The result of HouseCat6D:
+- todo
+
+# 💭 Video
+todo
 # 💙 TODO 
 - Upload all code
 - Upload training code and verification code command blocks
