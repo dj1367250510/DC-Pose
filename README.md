@@ -2,12 +2,12 @@
 When our paper is accepted, we will publish all the code！
 ***
 # Environment Setting
-## 💢 Our Code has been tested with:
+## Our Code has been tested with:
 - Ubuntu 20.04
 - python 3.9.0
 - Cuda 11.6
 - PyTorch 1.12.0
-## 🗯 Some dependent packages：
+## Some dependent packages：
 - [Gorilla](https://github.com/Gorilla-Lab-SCUT/gorilla-core)
 ```
 pip install gorilla-core==0.2.5.3
