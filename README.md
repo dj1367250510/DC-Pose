@@ -1,7 +1,7 @@
 # TC-Pose
 When our paper is accepted, we will publish all the code！
 ***
-# 💜 Environment Setting
+# Environment Setting
 ## 💢 Our Code has been tested with:
 - Ubuntu 20.04
 - python 3.9.0
@@ -17,8 +17,8 @@ pip install gorilla-core==0.2.5.3
 cd model/pointnet2
 python setup.py install
 ```
-# 🧡 Data Processing
-## NocsDateset:CAMERA25 and REAL275
+# Data Processing
+## NocsDatesets:CAMERA25 and REAL275
 - Download and preprocess the dataset following [DPDN](https://github.com/JiehongLin/Self-DPDN)
 - Download and unzip the segmentation results [here](http://home.ustc.edu.cn/~llinxiao/segmentation_results.zip)
 - Put them under ```./data```and the final file structure is as follows:
@@ -69,35 +69,41 @@ HouseCat6D
 ...............
 │── test_scene6
 ```
-# 💛 Train code of command blocks
+# Train code of command blocks
 - Train On the NocsDateset:
 ```
-todo
+python train.py --config config/REAL/camera_real.yaml
 ```
 - Train On the IndoorDataset:
 ```
-todo
+python train_housecat6d.py --config config/HouseCat6D/housecat6d.yaml
 ```
-# 💛 Evalute code of command blocks
+# Evalute code of command blocks
 - Evaluate On the NocsDateset:
 ```
-todo
+python test.py --config config/REAL/camera_real.yaml --test_epoch 30
 ```
 - Evaluate On the IndoorDataset:
 ```
-todo
+python test_housecat6d.py --config config/HouseCat6D/housecat6d.yaml --test_epoch 150
 ```
-# 💚 Results
+# Results
+You can download our pre-trained models on NOCS and HouseCat6D datasets here, along with training logs and evaluation metrics for each category.
 ## The result of REAL275:
-- todo
+| Metrics | IoU50 | IoU75 | 5 degree 2 cm | 5 degree 5 cm | 10 degree 2 cm | 10 degree 5 cm |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| Ours | 84.2 | 80.7 | 60.4 | 66.6 | 78.4 | 86.5 |
 ## The result of CAMERA25:
-- todo
+| Metrics | IoU50 | IoU75 | 5 degree 2 cm | 5 degree 5 cm | 10 degree 2 cm | 10 degree 5 cm |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| Ours | 94.3 | 91.8 | 78.4 | 82.4 | 86.4 | 91.6 |
 ## The result of HouseCat6D:
-- todo
-
+| Metrics | IoU50 | IoU75 | 5 degree 2 cm | 5 degree 5 cm | 10 degree 2 cm | 10 degree 5 cm |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| Ours | 78.6 | 55.9 | 22.3 | 23.4 | 53.5 | 56.5 |
 # 💭 Video
 todo
-# 💙 TODO 
+# TODO 
 - Upload all code
 - Upload training code and verification code command blocks
 - Add result table
