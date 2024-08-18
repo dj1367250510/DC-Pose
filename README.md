@@ -105,7 +105,6 @@ You can download our pre-trained models on NOCS and HouseCat6D datasets here, al
 todo
 # TODO 
 - Upload all code
-- Upload training code and verification code command blocks
-- Add result table
+- Upload log(pre-model)
 - Add video
 
