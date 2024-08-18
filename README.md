@@ -1,4 +1,4 @@
-# TC-Pose
+# DC-Pose
 When our paper is accepted, we will publish all the code！
 ***
 # Environment Setting
