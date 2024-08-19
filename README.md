@@ -88,7 +88,7 @@ python test.py --config config/REAL/camera_real.yaml --test_epoch 30
 python test_housecat6d.py --config config/HouseCat6D/housecat6d.yaml --test_epoch 150
 ```
 # Results
-You can download our pre-trained models on NOCS and HouseCat6D datasets here, along with training logs and evaluation metrics for each category.
+You can download our pre-trained models on NOCS and HouseCat6D datasets [here](https://drive.google.com/file/d/1cOebQI2dteexKNhTh5UddpU1QyJPbS9R/view?usp=drive_link), along with evaluation metrics for each category.
 ## The result of REAL275:
 | Metrics | IoU50 | IoU75 | 5 degree 2 cm | 5 degree 5 cm | 10 degree 2 cm | 10 degree 5 cm |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|
