@@ -102,9 +102,13 @@ You can download our pre-trained models on NOCS and HouseCat6D datasets [here](h
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | Ours | 78.6 | 55.9 | 22.3 | 23.4 | 53.5 | 56.5 |
 # 💭 Video
+
 Please check our video for more qualitative results.
 The predictions and ground truths are shown by red and green bounding boxes, respectively.
-[![Qualitative results of our method on CAMERA25 and REAL275.](https://i.ytimg.com/vi/4qY8LFR9PH4/maxresdefault.jpg)](https://youtu.be/4qY8LFR9PH4)
+
+[![Qualitative results of our method on CAMERA25 and REAL275.](https://i.ytimg.com/vi/4qY8LFR9PH4/hqdefault.jpg)](https://youtu.be/4qY8LFR9PH4) 
+
+
 # TODO 
 - Upload all code
 
