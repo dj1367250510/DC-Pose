@@ -104,10 +104,10 @@ You can download our pre-trained models on NOCS and HouseCat6D datasets [here](h
 # 💭 Video
 
 Please check our video for more qualitative results.
-The predictions and ground truths are shown by red and green bounding boxes, respectively.
 
 [![Qualitative results of our method on CAMERA25 and REAL275.](https://i.ytimg.com/vi/4qY8LFR9PH4/hqdefault.jpg)](https://youtu.be/4qY8LFR9PH4) 
 
+The predictions and ground truths are shown by red and green bounding boxes, respectively.
 
 # TODO 
 - Upload all code
