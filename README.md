@@ -102,7 +102,9 @@ You can download our pre-trained models on NOCS and HouseCat6D datasets [here](h
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 | Ours | 78.6 | 55.9 | 22.3 | 23.4 | 53.5 | 56.5 |
 # 💭 Video
-todo
+Please check our video for more qualitative results.
+The predictions and ground truths are shown by red and green bounding boxes, respectively.
+![](https://youtu.be/4qY8LFR9PH4)
 # TODO 
 - Upload all code
 - Upload log(pre-model)
